@@ -13,7 +13,37 @@ Original file is located at
 ### Aula do dia 28/05/2026
 
 #### Dicionários (Dict) { : }
+
+- Dicionários são estruturas de dados que armazenam pares de chave-valor. Cada chave é única e mapeia para um valor. São ótimos para representar dados que associam uma informação a outra, como um cadastro, onde a chave pode ser o nome e o valor o telefone, por exemplo.
 """
+
+# Tarefa feita na sala
+
+# Dicionario
+pessoa={"nome":"fulano", "idade":20, "telefone":"0000000"}
+
+# Dicionario cru
+print(pessoa)
+
+# Lista das chaves
+print( list(pessoa.values()))
+
+# Lista das chaves
+print(list(pessoa.keys()))
+
+# Lista de itens
+print(list(pessoa.itens))
+
+lista_pessoas = [
+    pessoa={"nome":"fulano", "idade":20, "telefone":"0000000"}
+    pessoa={"nome":"ciclano", "idade":20, "telefone":"0000000"}
+    pessoa={"nome":"beotrano", "idade":20, "telefone":"0000000"}
+]
+
+# valores
+for i in lista_pessoas:
+    print(list(i.values()))
+print("\n")
 
 ome_remover = "Bruno"
 if nome_remover in contatos:
